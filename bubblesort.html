@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<script>
+var newArray = [5，4，3，2，1];
+
+
+function swap(a,b){
+	var temp= newArray[a];
+	newArray[a]=newArray[b];
+	newArray[b]=temp;
+} 
+
+function bubbleSort(){
+	for (var i=0;i<newArray.length;i++){
+		for(var j=0;j<newArray.length-1;j++{
+			if (newArray[j]<newArray[j+i]){
+				swap(j,j+1);
+			}
+		｝
+		}
+	}
+	
+
+	function enhancebubbleSort(){
+		for (var i=0;i<newArray.length;i++){
+			for(var j=0;j<newArray.length-1-i;j++{
+				if (newArray[j]>newArray[j+i]){
+					swap(j,j+1);
+					
+				}
+			｝
+			}
+		}
+
+		function selectionSort(){
+			//create a place to store the minimum index
+			var minIndex;
+	
+			//do a loop for length time
+			for(var i=0;i=newArray.lenght;i++){
+				minIndex1;
+			
+			//do the second loop for length time 
+			for (var j=1;j<newArray.length;j++){
+				id (newArray[minIndex]>newArray[j]){
+					minIndex=j
+				}
+				
+			}
+		}
+		
+		if{ i !=minIndex){
+			swap(i,minIndex);		}
+		}
+	}
+	
+		//swap oif it is smallest index
+		
+		if (i!=minIndex){
+			swap(i,minIndex)
+		}
+		
+		function binarySearch(){
+			selectionSort();
+		}	
+		
+		var min,max,midl
+		min=0;
+		max=newArray.length
+		mid=Math.floor(newArray.length/2)
+		
+		
+		//store min,max,min
+		//compare if number ==mid
+		//if number >mid 
+		//max= mid 
+		//every round,swap it 
+		
+console.log(enhancebubbleSort());
+console.log(newArray);
+
+</script>
+
+</body>
+</html>
